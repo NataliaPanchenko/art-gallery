@@ -1,23 +1,45 @@
-# Recap Project 5: Art Gallery
+# Art Gallery
 
-In this project, your team will create an interactive art gallery app.
+Art Gallery is a modern web application built with Next.js that allows users to discover artworks, save favorite paintings, and engage with the collection through comments.
 
-This is a group project, so please create **only one project per group** follow this [guide to setup your repository](./docs/github-respository-template.md).
+The application provides a responsive and intuitive user experience while demonstrating modern frontend development practices, including data fetching, state management, reusable components, and styled-components architecture.
 
-## Overview
+## Features
 
-In this project, we will create an art gallery app with four pages: **Spotlight**, **Gallery**, **Favorite**, and **Detail**. Users can like or unlike art pieces, and liked pieces will appear on the **Favorite** page.
+* Browse a collection of artworks
+* View detailed information about individual paintings
+* Add and remove artworks from Favorites
+* Leave comments on paintings
+* Responsive design for all screen sizes
+* Fast client-side data fetching and caching with SWR
+* Dynamic UI built with reusable React components
 
-![wireframes](./docs/wireframes.excalidraw.png)
+## Tech Stack
 
-## API
+* Next.js
+* React
+* Styled Components
+* SWR
+* REST API
 
-We will fetch all necessary information about the art pieces from an API specifically designed for this course. [Check out the API](https://example-apis.vercel.app/api/art).
+## Key Implementations
 
-```bash
-https://example-apis.vercel.app/api/art
-```
+* Server-side and client-side rendering with Next.js
+* API data fetching using SWR for caching and revalidation
+* Component-based architecture
+* Styled Components for scalable styling and theme management
+* Favorites management functionality
+* Comment system for user interaction
+* Responsive layouts following modern UI/UX principles
 
-## Resources
+## Learning Outcomes
 
-Download a [Favorite Icon](https://lucide.dev/icons/) and save it in an "assets" folder within your app's main directory.
+This project helped strengthen skills in:
+
+* Next.js application development
+* API integration and asynchronous data handling
+* State management in React
+* Building reusable UI components
+* Styling applications with Styled Components
+* Creating interactive user experiences
+
